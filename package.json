@@ -1,0 +1,24 @@
+{
+  "name": "job-Cascade-Tech-Assesment-master",
+  "version": "1.0.0",
+  "description": "NOTE: The majority of the work for this position will be using JS with ES6 syntax. ## Overview Please complete this exercise with node.js and ES6. This exercise is intended to take no longer than 4 hours.  Please limit the detail of your solution with that time in mind.  Please include a README with your submission detailing your solution.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertamoah/job-Cascade-Tech-Assesment-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertamoah/job-Cascade-Tech-Assesment-master/issues"
+  },
+  "homepage": "https://github.com/robertamoah/job-Cascade-Tech-Assesment-master#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
