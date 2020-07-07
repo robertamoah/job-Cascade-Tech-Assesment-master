@@ -1,9 +1,8 @@
 const express = require("express");
-const path = require("path");
 const app = express();
 
 // process port for heroku if needed
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
