@@ -15,10 +15,10 @@ const authMiddleware = (data) => {
     };
   }
 
-  if (!data.number || data.number) {
-    // checks for ########## digit numbers,
-    // checks if its all numbers
-    const numData = [...data.number];
+  if (!data.phone || data.phone) {
+    // checks for ########## digit phones,
+    // checks if its all phones
+    const numData = [...data.phone];
     let mainResult = "";
     numData.forEach((char) => {
       if (isNaN(char) == true) {
@@ -27,28 +27,35 @@ const authMiddleware = (data) => {
       }
     });
 
-    // checks for input to be all number
+    // checks for input to be all phone
     if (mainResult === true) {
       return {
         error: true,
-        message: "it needs all numbers",
+        message: "it needs all phones",
       };
     }
   }
 
-  //checks if number is 10 digits
-  if (data.number.length < 10) {
+  //checks if phone is 10 digits
+  if (data.phone.length < 10) {
     return {
       error: true,
-      message: "Number needs 10 digits",
+      message: "phone needs 10 digits",
     };
   }
-  // if "" name return
 
-  if (!data.number) {
+  // if "" name return
+  if (!data.phone) {
     return {
       error: true,
-      message: "Fill in number",
+      message: "Fill in phone",
+    };
+  }
+
+  if (data.email && data.password && data.phone) {
+    return {
+      error: false,
+      message: "Fill in phone",
     };
   }
 };

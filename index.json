@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "email": "bigbrother@gmail.com",
+      "password": "sdfs",
+      "phone": "0123456789",
+      "date": "2020-07-07T22:49:56.585Z"
+    },
+    {
+      "email": "abenaricky@sgmaswedilw.com",
+      "password": "sdfs",
+      "phone": "0123456789",
+      "date": "2020-07-07T22:48:56.786Z"
+    },
+    {
+      "email": "abenaricky@sgmasdilw.com",
+      "password": "sdfs",
+      "phone": "0123456789",
+      "date": "2020-07-07T22:44:30.526Z"
+    },
+    {
+      "email": "abenaricky@gmail.com",
+      "password": "sdfs",
+      "phone": "0123456789",
+      "date": "2020-07-07T22:40:29.724Z"
+    },
+    {
+      "email": "abenaricky@gmail22.com",
+      "password": "sdfs",
+      "phone": "0123456789",
+      "date": "2020-07-07T22:25:53.012Z"
+    },
+    {
+      "email": "robertamoah271@gsdmail.com",
+      "password": "sdfs",
+      "phone": "0123456789"
+    },
+    {
+      "email": "robertamoah271@gmail.com",
+      "password": "sdfs",
+      "phone": "0123456789"
+    },
+    {
+      "email": "loreeta27gmail.com",
+      "password": "sdfs",
+      "phone": "0123456789"
+    },
+    {
+      "email": "robertamoah27gmail.com",
+      "password": "sdfs",
+      "phone": "0123456789"
+    },
+    {
+      "email": "robertamoah27gmail2.com",
+      "password": "sdfs",
+      "phone": "129308123912"
+    },
+    {
+      "email": "robertamoah27232gmail.com",
+      "password": "1234567890",
+      "phone": "5512060662"
+    }
+  ],
+  "sucessLogIn": [
+    {
+      "type": "LOGIN",
+      "created": "2020-07-07T23:32:29.393Z",
+      "email": "bigbrother@gmail.com"
+    },
+    {
+      "type": "LOGIN",
+      "created": "2020-07-07T23:25:15.464Z",
+      "email": "bigbrother@gmail.com"
+    },
+    {
+      "type": "LOGIN",
+      "created": "2020-07-07T23:25:02.246Z",
+      "email": "bigbrother@gmail.com"
+    },
+    {
+      "type": "LOGIN",
+      "created": "2020-07-07T23:24:45.648Z",
+      "email": "bigbrother@gmail.com"
+    },
+    {
+      "type": "LOGIN",
+      "created": "2020-07-07T22:49:56.585Z",
+      "email": "bigbrother@gmail.com"
+    },
+    {
+      "type": "LOGIN",
+      "created": "2020-07-07T22:48:56.786Z",
+      "email": "abenaricky@sgmaswedilw.com"
+    },
+    {
+      "type": "LOGIN",
+      "created": "2020-07-07T22:44:30.526Z",
+      "email": "abenaricky@sgmasdilw.com"
+    }
+  ],
+  "failedLogIn": []
+}
